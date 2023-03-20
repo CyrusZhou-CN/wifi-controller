@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# Start MongoDB
+nohup /usr/bin/mongod &
 # Start Omada Controller
+
 cd /opt/tplink/EAPController
 ./bin/control.sh start
 
